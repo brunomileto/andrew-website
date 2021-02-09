@@ -1,0 +1,22 @@
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  color: white;
+}
+
+.stars-bg {
+  background-image: url('pbd-stars.jpg');
+}
+
+.sil-bg {
+  background-image: url('pbd-silhouette.svg');
+}
+
+@media screen and (min-width: 1440px) {
+  .overflow-layer-image {
+    background-image: url('pbd-stars.jpg');
+  }
+}
