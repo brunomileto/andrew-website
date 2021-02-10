@@ -1,4 +1,5 @@
 body {
+  background-color: #fff;
   font-family: Europa, sans-serif;
   color: #333;
   font-size: 14px;
@@ -79,7 +80,29 @@ p {
 .main-hero {
   position: relative;
   z-index: 100;
+  display: block;
   overflow: hidden;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.main-hero.pt-page {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .logo-link {
@@ -190,8 +213,14 @@ p {
   right: 0%;
   bottom: 0%;
   z-index: 5;
+  display: block;
   width: 100vw;
   height: 100vh;
+}
+
+.bg-layer.parallaxjs {
+  z-index: 6;
+  display: none;
 }
 
 .stars-bg {
@@ -209,6 +238,10 @@ p {
   background-repeat: no-repeat;
 }
 
+.stars-bg.parallaxjs {
+  z-index: 2;
+}
+
 .sil-bg {
   position: absolute;
   left: 0%;
@@ -222,6 +255,10 @@ p {
   background-position: 23% 100%;
   background-size: 1440px;
   background-repeat: no-repeat;
+}
+
+.sil-bg.parallaxjs {
+  z-index: 3;
 }
 
 .container-hero {
@@ -243,6 +280,13 @@ p {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+}
+
+.container-hero.pt-page {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 .nav-social-media {
@@ -321,6 +365,10 @@ p {
 
 .sl-line.white {
   background-color: #fff;
+}
+
+.sl-line.blue {
+  background-color: rgba(1, 25, 51, 0.85);
 }
 
 .sl-line.blue {
@@ -475,6 +523,14 @@ p {
   margin-bottom: 0px;
   font-size: 1.2em;
   letter-spacing: 0.5px;
+}
+
+.ft-paragraph-contact.content {
+  color: rgba(1, 25, 51, 0.85);
+}
+
+.ft-paragraph-contact.content.lower-screen {
+  color: rgba(255, 255, 255, 0.85);
 }
 
 .ft-paragraph-contact.content {
@@ -715,6 +771,10 @@ p {
   height: 40vh;
 }
 
+.overflow-layer.parallaxjs {
+  z-index: 4;
+}
+
 .overflow-layer-image {
   display: block;
   width: 100vw;
@@ -748,6 +808,7 @@ p {
   display: -ms-flexbox;
   display: flex;
   width: 100vw;
+  background-color: #fff;
 }
 
 .main-lower-screens {
@@ -1042,6 +1103,82 @@ p {
   height: 50vh;
   border-top: 1px solid #011933;
   background-color: #fff;
+}
+
+.layer {
+  position: fixed;
+  left: 100px;
+  top: 0%;
+  right: auto;
+  bottom: 0%;
+  z-index: 20;
+  display: none;
+  width: 0vw;
+  background-color: #fff;
+  opacity: 0;
+}
+
+.nav-item-2 {
+  padding: 30px 15px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -webkit-transition: all 800ms ease;
+  transition: all 800ms ease;
+  color: rgba(34, 34, 34, 0.4);
+  font-size: 0.9em;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.nav-item-2:hover {
+  color: rgba(1, 25, 51, 0.85);
+}
+
+.nav-item-2.blue {
+  color: rgba(1, 25, 51, 0.85);
+}
+
+.paragraph-blue-2 {
+  color: rgba(1, 25, 51, 0.85);
+  font-size: 1.2em;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.paragraph-blue-2.white {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.lang-separator-2 {
+  width: 20px;
+  height: 1px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: rgba(34, 34, 34, 0.4);
+}
+
+.nav-lang-2 {
+  -webkit-transition: all 800ms ease;
+  transition: all 800ms ease;
+  color: rgba(34, 34, 34, 0.4);
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav-lang-2:hover {
+  color: rgba(1, 25, 51, 0.85);
+}
+
+.nav-lang-2.blue {
+  color: rgba(1, 25, 51, 0.85);
 }
 
 @media screen and (min-width: 1280px) {
@@ -1403,6 +1540,10 @@ p {
     display: none;
   }
 
+  .sl-line.blue {
+    display: none;
+  }
+
   .hero-paragraph-wrapper {
     margin-left: 0px;
   }
@@ -1497,7 +1638,7 @@ p {
   }
 }
 
-#w-node-0a79de388d19-d2a79409 {
+#w-node-aa38ae8f6a32-d2a79409 {
   -ms-grid-row: span 1;
   grid-row-start: span 1;
   -ms-grid-row-span: 1;
@@ -1508,7 +1649,7 @@ p {
   grid-column-end: span 2;
 }
 
-#w-node-552aab565d18-d2a79409 {
+#w-node-aa38ae8f6a95-d2a79409 {
   -ms-grid-row: span 1;
   grid-row-start: span 1;
   -ms-grid-row-span: 1;
@@ -1520,7 +1661,7 @@ p {
 }
 
 @media screen and (max-width: 479px) {
-  #w-node-0a79de388d09-d2a79409 {
+  #w-node-aa38ae8f6a22-d2a79409 {
     -ms-grid-column: span 2;
     grid-column-start: span 2;
     -ms-grid-column-span: 2;
@@ -1531,7 +1672,7 @@ p {
     grid-row-end: span 1;
   }
 
-  #w-node-0a79de388d0d-d2a79409 {
+  #w-node-aa38ae8f6a26-d2a79409 {
     -ms-grid-column: span 2;
     grid-column-start: span 2;
     -ms-grid-column-span: 2;
@@ -1542,7 +1683,7 @@ p {
     grid-row-end: span 1;
   }
 
-  #w-node-0a79de388d11-d2a79409 {
+  #w-node-aa38ae8f6a2a-d2a79409 {
     -ms-grid-column: span 2;
     grid-column-start: span 2;
     -ms-grid-column-span: 2;
@@ -1553,7 +1694,7 @@ p {
     grid-row-end: span 1;
   }
 
-  #w-node-0a79de388d15-d2a79409 {
+  #w-node-aa38ae8f6a2e-d2a79409 {
     -ms-grid-column: span 2;
     grid-column-start: span 2;
     -ms-grid-column-span: 2;
@@ -1564,7 +1705,7 @@ p {
     grid-row-end: span 1;
   }
 
-  #w-node-552aab565d08-d2a79409 {
+  #w-node-aa38ae8f6a85-d2a79409 {
     -ms-grid-column: span 2;
     grid-column-start: span 2;
     -ms-grid-column-span: 2;
@@ -1575,7 +1716,7 @@ p {
     grid-row-end: span 1;
   }
 
-  #w-node-552aab565d0c-d2a79409 {
+  #w-node-aa38ae8f6a89-d2a79409 {
     -ms-grid-column: span 2;
     grid-column-start: span 2;
     -ms-grid-column-span: 2;
@@ -1586,7 +1727,7 @@ p {
     grid-row-end: span 1;
   }
 
-  #w-node-552aab565d10-d2a79409 {
+  #w-node-aa38ae8f6a8d-d2a79409 {
     -ms-grid-column: span 2;
     grid-column-start: span 2;
     -ms-grid-column-span: 2;
@@ -1597,7 +1738,7 @@ p {
     grid-row-end: span 1;
   }
 
-  #w-node-552aab565d14-d2a79409 {
+  #w-node-aa38ae8f6a91-d2a79409 {
     -ms-grid-column: span 2;
     grid-column-start: span 2;
     -ms-grid-column-span: 2;
