@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Mon Feb 08 2021 02:43:16 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Tue Feb 09 2021 03:08:24 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="601edfcbd9d961d870ebfd14" data-wf-site="601edfcbd9d9617cb0ebfd13">
 <head>
   <meta charset="utf-8">
@@ -15,26 +15,15 @@
   <link href="images/webclip.png" rel="apple-touch-icon">
 </head>
 <body class="body">
-  <div data-w-id="31c76624-9d87-f9e5-e16a-4aa579a48ab1" class="layer-center">
-    <div data-w-id="31c76624-9d87-f9e5-e16a-4aa579a48ab2" class="line-left"></div>
-    <div class="image-layer-transition"><img src="images/logo.png" loading="lazy" alt="" class="image-2"></div>
-    <div data-w-id="31c76624-9d87-f9e5-e16a-4aa579a48ab5" class="line-right"></div>
-  </div>
-  <div data-w-id="516330c6-1ab7-a9ca-69af-91a8eb77f55d" class="layer-transition">
-    <div data-w-id="516330c6-1ab7-a9ca-69af-91a8eb77f55e" class="layer-top-click"></div>
-    <div data-w-id="516330c6-1ab7-a9ca-69af-91a8eb77f55f" class="layer-bottom-click"></div>
-    <div data-w-id="516330c6-1ab7-a9ca-69af-91a8eb77f560" class="layer-top"></div>
-    <div data-w-id="516330c6-1ab7-a9ca-69af-91a8eb77f561" class="layer-bottom"></div>
-  </div>
   <div id="main-hero" class="main-hero">
     <div class="sidebar">
-      <a href="index.html" aria-current="page" class="logo-link w-inline-block w--current"><img src="images/logo.png" loading="lazy" alt="" class="logo-img"></a>
+      <a data-animation="58" data-goto="-1" href="index.html" aria-current="page" class="logo-link w-inline-block w--current"><img src="images/logo.png" loading="lazy" alt="" class="logo-img"></a>
       <div class="nav-items">
         <div class="nav-links-wrapper">
-          <a href="en/contact.html" class="nav-item">contact</a>
+          <a data-animation="58" data-goto="-1" href="en/contact.html" class="nav-item">contact</a>
           <a href="#" class="nav-item">work</a>
           <a href="#" class="nav-item">the red big point</a>
-          <a href="index.html" aria-current="page" class="nav-item blue w--current">about</a>
+          <a data-animation="58" href="index.html" aria-current="page" class="nav-item blue w--current">about</a>
         </div>
       </div>
       <div class="nav-languages">
@@ -52,6 +41,7 @@
       </div>
       <div class="sil-bg"></div>
     </div>
+    <div class="layer"></div>
     <div class="container-hero">
       <div style="-webkit-transform:translate3d(0, -110vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, -110vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, -110vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, -110vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="nav-social-media">
         <div class="nav-social-heading">
@@ -174,6 +164,10 @@
          window.location = goTo;
     },2500);       
 });
+</script>
+  <script type="text/javascript">
+var scene = document.getElementById('scene');
+var parallaxInstance = new Parallax(scene);
 </script>
 </body>
 </html>
