@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Thu Feb 11 2021 01:11:53 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Fri Feb 12 2021 02:10:56 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="601edfcbd9d961d870ebfd14" data-wf-site="601edfcbd9d9617cb0ebfd13">
 <head>
   <meta charset="utf-8">
@@ -124,7 +124,8 @@
           <a data-animation="58" data-goto="-1" href="en/contact.html" class="nav-item">contact</a>
           <a href="en/work.html" class="nav-item">work</a>
           <a href="#" class="nav-item">the red big point</a>
-          <a data-animation="58" href="index.html" aria-current="page" class="nav-item blue w--current">about</a>
+          <a data-animation="58" href="#" class="nav-item">about</a>
+          <a data-animation="58" href="index.html" aria-current="page" class="nav-item blue w--current">home</a>
         </div>
       </div>
       <div class="nav-languages">
@@ -226,7 +227,8 @@
         </div>
       </div>
       <div class="hamb-menu-content">
-        <a href="index.html" aria-current="page" class="hamb-menu-item blue w--current">About</a>
+        <a href="index.html" aria-current="page" class="hamb-menu-item blue w--current">home</a>
+        <a href="#" class="hamb-menu-item">About</a>
         <a href="#" class="hamb-menu-item">the red big point</a>
         <a href="#" class="hamb-menu-item">work</a>
         <a href="en/contact.html" class="hamb-menu-item">contact</a>
@@ -263,11 +265,10 @@
     var goTo = this.getAttribute("href");
     setTimeout(function(){
          window.location = goTo;
-    },700);       
+    },1100);       
 });
 </script>
-  <script type="text/javascript">
-</script>
+  <script src="https://instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
   <script>
   // Look for .hamburger
   var hamburger = document.querySeleYYctor(".hamburger");

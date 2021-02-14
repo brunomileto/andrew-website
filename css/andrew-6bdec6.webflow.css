@@ -55,7 +55,7 @@ p {
   display: flex;
   width: 100px;
   height: 100vh;
-  padding-top: 30px;
+  padding-top: 40px;
   padding-bottom: 30px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -237,7 +237,7 @@ p {
   display: flex;
   height: 100vh;
   margin-left: 100px;
-  padding: 55px 60px;
+  padding: 40px 60px 55px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -278,7 +278,7 @@ p {
 .hamb-icon {
   position: fixed;
   left: auto;
-  top: 55px;
+  top: 40px;
   right: 60px;
   bottom: auto;
   z-index: 65;
@@ -520,7 +520,7 @@ p {
   bottom: 0%;
   z-index: 60;
   display: none;
-  padding: 55px 60px;
+  padding: 40px 60px 55px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1092,7 +1092,7 @@ p {
 }
 
 .layer.white {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: #fff;
 }
 
 .nav-item-2 {
@@ -1706,7 +1706,7 @@ p {
   }
 }
 
-#w-node-_2b1a702c-d22e-6fc3-cd36-85fc9f9740bf-9f974072 {
+#w-node-_3f1fba73-724c-029d-ced5-31f696cbdc35-96cbdbff {
   -ms-grid-row: span 1;
   grid-row-start: span 1;
   -ms-grid-row-span: 1;
@@ -1717,7 +1717,7 @@ p {
   grid-column-end: span 2;
 }
 
-#w-node-_2b1a702c-d22e-6fc3-cd36-85fc9f974122-9f974072 {
+#w-node-_3f1fba73-724c-029d-ced5-31f696cbdc98-96cbdbff {
   -ms-grid-row: span 1;
   grid-row-start: span 1;
   -ms-grid-row-span: 1;
@@ -1728,7 +1728,7 @@ p {
   grid-column-end: span 2;
 }
 
-#w-node-_40292ec1-b586-6ef3-a21c-c8210ae0d52b-0ae0d4de {
+#w-node-b6908812-7e23-2ac1-7c87-ad1a183fd36a-183fd333 {
   -ms-grid-row: span 1;
   grid-row-start: span 1;
   -ms-grid-row-span: 1;
@@ -1739,7 +1739,7 @@ p {
   grid-column-end: span 2;
 }
 
-#w-node-_40292ec1-b586-6ef3-a21c-c8210ae0d58e-0ae0d4de {
+#w-node-b6908812-7e23-2ac1-7c87-ad1a183fd3cd-183fd333 {
   -ms-grid-row: span 1;
   grid-row-start: span 1;
   -ms-grid-row-span: 1;
@@ -1751,7 +1751,7 @@ p {
 }
 
 @media screen and (max-width: 479px) {
-  #w-node-_2b1a702c-d22e-6fc3-cd36-85fc9f9740af-9f974072 {
+  #w-node-_3f1fba73-724c-029d-ced5-31f696cbdc25-96cbdbff {
     -ms-grid-column: span 2;
     grid-column-start: span 2;
     -ms-grid-column-span: 2;
@@ -1762,7 +1762,7 @@ p {
     grid-row-end: span 1;
   }
 
-  #w-node-_2b1a702c-d22e-6fc3-cd36-85fc9f9740b3-9f974072 {
+  #w-node-_3f1fba73-724c-029d-ced5-31f696cbdc29-96cbdbff {
     -ms-grid-column: span 2;
     grid-column-start: span 2;
     -ms-grid-column-span: 2;
@@ -1773,7 +1773,7 @@ p {
     grid-row-end: span 1;
   }
 
-  #w-node-_2b1a702c-d22e-6fc3-cd36-85fc9f9740b7-9f974072 {
+  #w-node-_3f1fba73-724c-029d-ced5-31f696cbdc2d-96cbdbff {
     -ms-grid-column: span 2;
     grid-column-start: span 2;
     -ms-grid-column-span: 2;
@@ -1784,7 +1784,7 @@ p {
     grid-row-end: span 1;
   }
 
-  #w-node-_2b1a702c-d22e-6fc3-cd36-85fc9f9740bb-9f974072 {
+  #w-node-_3f1fba73-724c-029d-ced5-31f696cbdc31-96cbdbff {
     -ms-grid-column: span 2;
     grid-column-start: span 2;
     -ms-grid-column-span: 2;
@@ -1795,7 +1795,7 @@ p {
     grid-row-end: span 1;
   }
 
-  #w-node-_2b1a702c-d22e-6fc3-cd36-85fc9f974112-9f974072 {
+  #w-node-_3f1fba73-724c-029d-ced5-31f696cbdc88-96cbdbff {
     -ms-grid-column: span 2;
     grid-column-start: span 2;
     -ms-grid-column-span: 2;
@@ -1806,7 +1806,7 @@ p {
     grid-row-end: span 1;
   }
 
-  #w-node-_2b1a702c-d22e-6fc3-cd36-85fc9f974116-9f974072 {
+  #w-node-_3f1fba73-724c-029d-ced5-31f696cbdc8c-96cbdbff {
     -ms-grid-column: span 2;
     grid-column-start: span 2;
     -ms-grid-column-span: 2;
@@ -1817,7 +1817,7 @@ p {
     grid-row-end: span 1;
   }
 
-  #w-node-_2b1a702c-d22e-6fc3-cd36-85fc9f97411a-9f974072 {
+  #w-node-_3f1fba73-724c-029d-ced5-31f696cbdc90-96cbdbff {
     -ms-grid-column: span 2;
     grid-column-start: span 2;
     -ms-grid-column-span: 2;
@@ -1828,7 +1828,7 @@ p {
     grid-row-end: span 1;
   }
 
-  #w-node-_2b1a702c-d22e-6fc3-cd36-85fc9f97411e-9f974072 {
+  #w-node-_3f1fba73-724c-029d-ced5-31f696cbdc94-96cbdbff {
     -ms-grid-column: span 2;
     grid-column-start: span 2;
     -ms-grid-column-span: 2;
@@ -1839,7 +1839,7 @@ p {
     grid-row-end: span 1;
   }
 
-  #w-node-_40292ec1-b586-6ef3-a21c-c8210ae0d51b-0ae0d4de {
+  #w-node-b6908812-7e23-2ac1-7c87-ad1a183fd35a-183fd333 {
     -ms-grid-column: span 2;
     grid-column-start: span 2;
     -ms-grid-column-span: 2;
@@ -1850,7 +1850,7 @@ p {
     grid-row-end: span 1;
   }
 
-  #w-node-_40292ec1-b586-6ef3-a21c-c8210ae0d51f-0ae0d4de {
+  #w-node-b6908812-7e23-2ac1-7c87-ad1a183fd35e-183fd333 {
     -ms-grid-column: span 2;
     grid-column-start: span 2;
     -ms-grid-column-span: 2;
@@ -1861,7 +1861,7 @@ p {
     grid-row-end: span 1;
   }
 
-  #w-node-_40292ec1-b586-6ef3-a21c-c8210ae0d523-0ae0d4de {
+  #w-node-b6908812-7e23-2ac1-7c87-ad1a183fd362-183fd333 {
     -ms-grid-column: span 2;
     grid-column-start: span 2;
     -ms-grid-column-span: 2;
@@ -1872,7 +1872,7 @@ p {
     grid-row-end: span 1;
   }
 
-  #w-node-_40292ec1-b586-6ef3-a21c-c8210ae0d527-0ae0d4de {
+  #w-node-b6908812-7e23-2ac1-7c87-ad1a183fd366-183fd333 {
     -ms-grid-column: span 2;
     grid-column-start: span 2;
     -ms-grid-column-span: 2;
@@ -1883,7 +1883,7 @@ p {
     grid-row-end: span 1;
   }
 
-  #w-node-_40292ec1-b586-6ef3-a21c-c8210ae0d57e-0ae0d4de {
+  #w-node-b6908812-7e23-2ac1-7c87-ad1a183fd3bd-183fd333 {
     -ms-grid-column: span 2;
     grid-column-start: span 2;
     -ms-grid-column-span: 2;
@@ -1894,7 +1894,7 @@ p {
     grid-row-end: span 1;
   }
 
-  #w-node-_40292ec1-b586-6ef3-a21c-c8210ae0d582-0ae0d4de {
+  #w-node-b6908812-7e23-2ac1-7c87-ad1a183fd3c1-183fd333 {
     -ms-grid-column: span 2;
     grid-column-start: span 2;
     -ms-grid-column-span: 2;
@@ -1905,7 +1905,7 @@ p {
     grid-row-end: span 1;
   }
 
-  #w-node-_40292ec1-b586-6ef3-a21c-c8210ae0d586-0ae0d4de {
+  #w-node-b6908812-7e23-2ac1-7c87-ad1a183fd3c5-183fd333 {
     -ms-grid-column: span 2;
     grid-column-start: span 2;
     -ms-grid-column-span: 2;
@@ -1916,7 +1916,7 @@ p {
     grid-row-end: span 1;
   }
 
-  #w-node-_40292ec1-b586-6ef3-a21c-c8210ae0d58a-0ae0d4de {
+  #w-node-b6908812-7e23-2ac1-7c87-ad1a183fd3c9-183fd333 {
     -ms-grid-column: span 2;
     grid-column-start: span 2;
     -ms-grid-column-span: 2;
