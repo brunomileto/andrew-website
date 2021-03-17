@@ -132,7 +132,7 @@ p {
 }
 
 .nav-item {
-  padding: 30px 15px;
+  padding: 30px 10px;
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
@@ -254,7 +254,7 @@ p {
   display: flex;
   height: 100vh;
   margin-left: 100px;
-  padding: 40px 60px 55px;
+  padding: 40px 60px 25px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -429,6 +429,10 @@ p {
 }
 
 .footer-heading {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   font-size: 1.2em;
   font-weight: 300;
   letter-spacing: 0.2px;
@@ -501,7 +505,7 @@ p {
 }
 
 .ft-paragraph-contact {
-  margin-bottom: 0px;
+  margin-bottom: 8px;
   font-size: 1.2em;
   letter-spacing: 0.5px;
 }
@@ -1301,6 +1305,14 @@ p {
 .lang-globe {
   display: inline;
   width: 20px;
+  height: 100%;
+  max-width: 100%;
+  clear: right;
+  line-height: 100%;
+}
+
+.lang-globe._2 {
+  display: none;
 }
 
 .lang-arrow {
@@ -1392,6 +1404,11 @@ p {
   display: flex;
   width: 100%;
   padding-right: 22px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: end;
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
@@ -1403,6 +1420,20 @@ p {
   -webkit-align-self: auto;
   -ms-flex-item-align: auto;
   align-self: auto;
+}
+
+.pbd-span {
+  margin-top: 4px;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  -ms-grid-row-align: stretch;
+  align-self: stretch;
+  font-size: 0.7em;
+  line-height: 100%;
+}
+
+.nav-lang-imgs-wrapper-mobile {
+  cursor: pointer;
 }
 
 @media screen and (min-width: 1280px) {
@@ -1567,7 +1598,7 @@ p {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin-right: 20px;
+    margin-right: 0px;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -1598,8 +1629,9 @@ p {
   }
 
   .ft-heading-contact {
-    margin-right: 8px;
+    margin-right: 6px;
     margin-bottom: 0px;
+    margin-left: 6px;
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
@@ -1607,6 +1639,8 @@ p {
   }
 
   .ft-paragraph-contact {
+    margin-right: 6px;
+    margin-left: 6px;
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
